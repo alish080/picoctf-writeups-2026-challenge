@@ -1,0 +1,35 @@
+Nov 19 08:38:56 localhost syslog.info syslogd started: BusyBox v1.36.1
+Nov 19 08:38:57 localhost daemon.info init: starting pid 2183, tty '': '/sbin/openrc default'
+Nov 19 08:38:57 localhost cron.info crond[2229]: crond (busybox 1.36.1) started, log level 8
+Nov 19 08:38:57 localhost auth.info sshd[2266]: Server listening on 0.0.0.0 port 22.
+Nov 19 08:38:57 localhost auth.info sshd[2266]: Server listening on :: port 22.
+Nov 19 08:38:57 localhost daemon.info init: starting pid 2272, tty '/dev/tty1': '/sbin/getty 38400 tty1'
+Nov 19 08:38:57 localhost daemon.info init: starting pid 2273, tty '/dev/tty2': '/sbin/getty 38400 tty2'
+Nov 19 08:38:57 localhost daemon.info init: starting pid 2277, tty '/dev/tty3': '/sbin/getty 38400 tty3'
+Nov 19 08:38:57 localhost daemon.info init: starting pid 2281, tty '/dev/tty4': '/sbin/getty 38400 tty4'
+Nov 19 08:38:57 localhost daemon.info init: starting pid 2285, tty '/dev/tty5': '/sbin/getty 38400 tty5'
+Nov 19 08:38:57 localhost daemon.info init: starting pid 2289, tty '/dev/tty6': '/sbin/getty 38400 tty6'
+Nov 19 08:38:57 localhost daemon.info init: starting pid 2292, tty '/dev/ttyS0': '/sbin/getty -L 0 ttyS0 vt100'
+Nov 19 08:39:02 localhost auth.info login[2294]: root login on 'ttyS0'
+Nov 19 08:39:22 localhost auth.info sshd[2302]: Accepted password for ctf-player from 10.0.2.2 port 58878 ssh2
+Nov 19 08:39:28 localhost auth.info sshd[2304]: Received disconnect from 10.0.2.2 port 58878:11: disconnected by user
+Nov 19 08:39:28 localhost auth.info sshd[2304]: Disconnected from user ctf-player 10.0.2.2 port 58878
+Nov 19 08:45:00 localhost cron.info crond[2229]: USER root pid 2306 cmd run-parts /etc/periodic/15min
+Nov 19 08:49:27 localhost auth.info sshd[2307]: Accepted password for ctf-player from 10.0.2.2 port 38568 ssh2
+Nov 19 08:49:27 localhost auth.info sshd[2309]: Received disconnect from 10.0.2.2 port 38568:11: disconnected by user
+Nov 19 08:49:27 localhost auth.info sshd[2309]: Disconnected from user ctf-player 10.0.2.2 port 38568
+Nov 19 08:49:52 localhost auth.info sshd[2318]: Accepted password for ctf-player from 10.0.2.2 port 49812 ssh2
+Nov 19 08:49:52 localhost auth.info sshd[2320]: Received disconnect from 10.0.2.2 port 49812:11: disconnected by user
+Nov 19 08:49:52 localhost auth.info sshd[2320]: Disconnected from user ctf-player 10.0.2.2 port 49812
+Nov 19 08:50:48 localhost daemon.info init: starting pid 2326, tty '': '/sbin/openrc shutdown'
+Nov 19 08:50:48 localhost user.debug : Will stop /usr/sbin/sshd
+Nov 19 08:50:48 localhost user.debug : Will stop PID 2266
+Nov 19 08:50:48 localhost user.debug : Sending signal 15 to PID 2266
+Nov 19 08:50:48 localhost auth.info sshd[2266]: Received signal 15; terminating.
+Nov 19 08:50:48 localhost user.debug : Will stop /usr/sbin/crond
+Nov 19 08:50:48 localhost user.debug : Will stop PID 2229
+Nov 19 08:50:48 localhost user.debug : Sending signal 15 to PID 2229
+Nov 19 08:50:48 localhost user.debug : Will stop /sbin/syslogd
+Nov 19 08:50:48 localhost user.debug : Will stop PID 2176
+Nov 19 08:50:48 localhost user.debug : Sending signal 15 to PID 2176
+Nov 19 08:50:48 localhost syslog.info syslogd exiting
